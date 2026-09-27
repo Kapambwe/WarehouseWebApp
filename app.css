@@ -1,12 +1,341 @@
+/* ── Tokens ─────────────────────────────────────────────────── */
+:root {
+  /* Brand */
+  --wh-navy:              #172554;
+  --wh-navy-lt:           #bfdbfe;
+  --wh-ink:               #0f172a;
+
+  /* Surfaces */
+  --wh-bg:                #f1f5f9;
+  --wh-surface:           #ffffff;
+  --wh-muted-bg:          #f8fafc;
+
+  /* Text */
+  --wh-text:              #0f172a;
+  --wh-subtle:            #64748b;
+
+  /* Borders */
+  --wh-border:            #e2e8f0;
+  --wh-border-md:         #cbd5e1;
+
+  /* Semantic */
+  --wh-warning:           #b45309;
+  --wh-danger:            #dc2626;
+  --wh-safe:              #15803d;
+  --wh-danger-t:          #b91c1c;
+
+  /* Workflow stages */
+  --wh-stage-current-bg:       #ccfbf1;
+  --wh-stage-current-border:   #14b8a6;
+  --wh-stage-complete-bg:      #dcfce7;
+
+  /* KPI card gradients */
+  --kpi-purple:  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --kpi-green:   linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  --kpi-sky:     linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --kpi-pink:    linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  --kpi-crimson: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+}
+
+/* ── Reset ───────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
 html, body {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+               BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--wh-bg);
+  color: var(--wh-text);
 }
 
-body {
-    margin: 0;
+/* ── Header ──────────────────────────────────────────────────── */
+.wh-header {
+  background: var(--wh-navy);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.brand small {
+  display: block;
+  color: var(--wh-navy-lt);
+  font-size: 0.72rem;
+}
+
+/* Square brand lettermark */
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 0.65rem;
+  background: #1e40af;
+  font-weight: 800;
+  font-size: 1rem;
+  color: white;
+  letter-spacing: -0.02em;
+  flex-shrink: 0;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────── */
 .rz-panel-menu .rz-navigation-item-link {
-    border-radius: 0.5rem;
-    margin: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0.15rem 0.5rem;
+}
+
+.sidebar-heading {
+  padding: 1rem 0.9rem 0.4rem;
+  color: var(--wh-subtle);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ── Content shell ───────────────────────────────────────────── */
+.content-shell {
+  padding: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* ── Loading splash ──────────────────────────────────────────── */
+.loading-splash {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background: var(--wh-navy);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.loading-splash small {
+  display: block;
+  color: var(--wh-navy-lt);
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-top: 0.4rem;
+}
+
+/* ── Text utilities ──────────────────────────────────────────── */
+.muted       { color: var(--wh-subtle);   }
+.safe-text   { color: var(--wh-safe)    !important; }
+.danger-text { color: var(--wh-danger-t) !important; }
+
+/* ── Metric / KPI tiles ──────────────────────────────────────── */
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.65rem;
+}
+
+@media (min-width: 640px)  { .metric-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px) { .metric-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.metric {
+  background: var(--wh-surface);
+  border-radius: 0.75rem;
+  padding: 0.9rem;
+  box-shadow: 0 1px 3px #00000012;
+}
+
+.metric strong {
+  display: block;
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+
+.metric span {
+  color: var(--wh-subtle);
+  font-size: 0.78rem;
+}
+
+.metric.warning strong { color: var(--wh-warning); }
+.metric.danger  strong { color: var(--wh-danger);  }
+
+/* ── Clickable card interaction ──────────────────────────────── */
+.clickable-card {
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.clickable-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px #0f172a1a;
+}
+
+/* ── Fact grids — structured label/value pairs ───────────────── */
+.facts-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  border-top: 1px solid var(--wh-border);
+  padding-top: 0.55rem;
+}
+
+.facts-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+
+.facts-2 span,
+.facts-3 span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.facts-2 small,
+.facts-3 small {
+  color: var(--wh-subtle);
+  font-size: 0.75rem;
+}
+
+.facts-2 strong,
+.facts-3 strong {
+  color: var(--wh-text);
+  font-size: 0.88rem;
+}
+
+/* ── Detail grid — 3-column property/value panels ────────────── */
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.detail-grid span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.detail-grid small  { color: var(--wh-subtle); font-size: 0.75rem; }
+.detail-grid strong { color: var(--wh-text);   font-size: 0.88rem; }
+
+/* ── Task / list row ─────────────────────────────────────────── */
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--wh-border);
+}
+
+.task-row:last-child { border-bottom: 0; }
+
+.task-row small {
+  display: block;
+  color: var(--wh-subtle);
+  margin-top: 0.2rem;
+}
+
+/* ── Workflow stepper ────────────────────────────────────────── */
+.workflow-stepper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+}
+
+.workflow-stage {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.65rem 0.4rem;
+  background: var(--wh-border);
+  border-radius: 0.6rem;
+  font-size: 0.78rem;
+}
+
+.workflow-stage small {
+  display: block;
+  color: var(--wh-subtle);
+}
+
+.workflow-stage.current {
+  background: var(--wh-stage-current-bg);
+  border: 1px solid var(--wh-stage-current-border);
+}
+
+.workflow-stage.complete { background: var(--wh-stage-complete-bg); }
+.workflow-stage.locked   { opacity: 0.7; }
+
+.workflow-number {
+  display: grid;
+  place-items: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--wh-surface);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── Form layout helpers ─────────────────────────────────────── */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+/* ── Auth layout ─────────────────────────────────────────────── */
+.auth-shell {
+  min-height: calc(100vh - 4rem);
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.auth-card {
+  width: min(100%, 28rem);
+}
+
+.auth-footer {
+  margin-top: 1rem;
+  color: var(--wh-subtle);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* ── Responsive breakpoints ──────────────────────────────────── */
+@media (max-width: 900px) {
+  .workflow-stepper { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 720px) {
+  .content-shell { padding: 0.75rem; }
+  .form-row,
+  .detail-grid   { grid-template-columns: 1fr; }
+  .facts-3       { grid-template-columns: 1fr 1fr; }
+}
+
+/* ── User menu dropdown (LoginDisplay) ──────────────────────── */
+.wh-user-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+}
+
+.wh-user-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 100;
+  min-width: 260px;
+  background: var(--wh-surface);
+  border: 1px solid var(--wh-border-md);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px #0f172a1a;
 }
