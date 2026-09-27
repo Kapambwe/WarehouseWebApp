@@ -1,0 +1,5 @@
+[
+  { "receiptNumber": "RCV-2026-00881", "queueNumber": "#034", "supplier": "North Valley Cooperative", "product": "Maize", "goodsType": "Agricultural", "expectedQuantity": 28000, "receivedQuantity": 27940, "unit": "kg", "qualityStatus": "Passed", "inventoryStatus": "Available", "nextAction": "Put away" },
+  { "receiptNumber": "RCV-2026-00882", "queueNumber": "#035", "supplier": "Copper Ridge Mining", "product": "Copper Concentrate", "goodsType": "Mineral", "expectedQuantity": 18500, "receivedQuantity": 18500, "unit": "kg", "qualityStatus": "Under inspection", "inventoryStatus": "Quarantined", "nextAction": "Await assay" },
+  { "receiptNumber": "RCV-2026-00883", "queueNumber": "#036", "supplier": "ChemPro Logistics", "product": "Industrial Solvent", "goodsType": "Hazardous", "expectedQuantity": 24, "receivedQuantity": 0, "unit": "drums", "qualityStatus": "Not started", "inventoryStatus": "Under inspection", "nextAction": "Capture receipt" }
+]

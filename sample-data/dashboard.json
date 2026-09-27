@@ -1,0 +1,11 @@
+{
+  "trucksWaiting": 17,
+  "trucksAtDocks": 6,
+  "averageWaitMinutes": 38,
+  "longestWaitMinutes": 84,
+  "receivedTonnesToday": 426,
+  "receivingCapacityTonnes": 600,
+  "dockUtilisationPercent": 82,
+  "availableInventoryItems": 1248,
+  "openExceptions": 9
+}

@@ -1,0 +1,5 @@
+[
+  { "taskNumber": "LOAD-2026-011", "orderNumber": "SO-2026-00873", "customer": "Health Services Supply", "packages": 24, "weight": 1250, "unit": "kg", "status": "Loaded", "seal": "SEAL-88101", "assignedTo": "Loading Team A" },
+  { "taskNumber": "LOAD-2026-012", "orderNumber": "SO-2026-00874", "customer": "General Industrial Stores", "packages": 86, "weight": 8400, "unit": "kg", "status": "Verification required", "seal": "SEAL-88102", "assignedTo": "Loading Team B" },
+  { "taskNumber": "LOAD-2026-013", "orderNumber": "SO-2026-00872", "customer": "Copper Refinery Ltd", "packages": 3, "weight": 12000, "unit": "kg", "status": "Awaiting carrier", "seal": "—", "assignedTo": "Unassigned" }
+]

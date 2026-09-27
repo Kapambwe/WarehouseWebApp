@@ -1,0 +1,6 @@
+[
+  { "orderNumber": "SO-2026-00871", "customer": "Lusaka Food Processors", "priority": "High", "lineCount": 4, "status": "Picking", "requestedDate": "2026-09-23T12:00:00+02:00", "exception": "" },
+  { "orderNumber": "SO-2026-00872", "customer": "Copper Refinery Ltd", "priority": "Standard", "lineCount": 2, "status": "Allocated", "requestedDate": "2026-09-23T14:00:00+02:00", "exception": "Awaiting carrier" },
+  { "orderNumber": "SO-2026-00873", "customer": "Health Services Supply", "priority": "Critical", "lineCount": 3, "status": "Packed", "requestedDate": "2026-09-23T10:30:00+02:00", "exception": "" },
+  { "orderNumber": "SO-2026-00874", "customer": "General Industrial Stores", "priority": "Standard", "lineCount": 8, "status": "Dispatched", "requestedDate": "2026-09-23T09:00:00+02:00", "exception": "" }
+]

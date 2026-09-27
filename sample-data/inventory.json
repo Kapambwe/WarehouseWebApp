@@ -1,0 +1,7 @@
+[
+  { "sku": "MAIZE-A", "product": "Grade A Maize", "goodsType": "Agricultural", "quantity": 240, "unit": "t", "warehouse": "Lusaka Central", "location": "Z3-R12-B04", "status": "Available", "owner": "ABC Cooperative", "batchOrLot": "MAIZE-2026-001" },
+  { "sku": "CU-CON-01", "product": "Copper Concentrate", "goodsType": "Mineral", "quantity": 86.4, "unit": "t", "warehouse": "Copperbelt Depot", "location": "STOCKPILE-02", "status": "Under Inspection", "owner": "Copper Ridge Mining", "batchOrLot": "CU-2026-014" },
+  { "sku": "SOLV-200", "product": "Industrial Solvent", "goodsType": "Hazardous", "quantity": 480, "unit": "drums", "warehouse": "Lusaka Central", "location": "HAZ-D02", "status": "Quarantined", "owner": "ChemPro Logistics", "batchOrLot": "SOLV-2026-003" },
+  { "sku": "MED-INS-01", "product": "Insulin 10ml", "goodsType": "Pharmaceutical", "quantity": 9200, "unit": "vials", "warehouse": "Cold Room A", "location": "COLD-A-004", "status": "Available", "owner": "Health Supply Co.", "batchOrLot": "INS-2026-088" },
+  { "sku": "NICK-ORE-01", "product": "Nickel Ore", "goodsType": "Mineral", "quantity": 144, "unit": "t", "warehouse": "Copperbelt Depot", "location": "STOCKPILE-05", "status": "Reserved", "owner": "Lusaka Metals", "batchOrLot": "NI-2026-007" }
+]

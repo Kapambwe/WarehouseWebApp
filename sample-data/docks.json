@@ -1,0 +1,7 @@
+[
+  { "dockCode": "D1", "capability": "Minerals / bulk", "status": "Inspection", "currentQueueNumber": "#035", "utilisationPercent": 76, "estimatedMinutesToFree": 22 },
+  { "dockCode": "D2", "capability": "General / agricultural", "status": "Receiving", "currentQueueNumber": "#034", "utilisationPercent": 91, "estimatedMinutesToFree": 8 },
+  { "dockCode": "D3", "capability": "Hazardous goods", "status": "Available", "currentQueueNumber": "—", "utilisationPercent": 54, "estimatedMinutesToFree": 0 },
+  { "dockCode": "D4", "capability": "Cold chain", "status": "Available", "currentQueueNumber": "—", "utilisationPercent": 38, "estimatedMinutesToFree": 0 },
+  { "dockCode": "D5", "capability": "General goods", "status": "Maintenance", "currentQueueNumber": "—", "utilisationPercent": 0, "estimatedMinutesToFree": 120 }
+]

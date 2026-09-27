@@ -1,0 +1,6 @@
+[
+  { "queueNumber": "#034", "vehicleRegistration": "ALB 4519", "supplier": "North Valley Cooperative", "product": "Maize", "stage": "At Dock", "location": "Dock D2", "status": "Receiving", "lastUpdated": "2026-09-23T09:52:00+02:00" },
+  { "queueNumber": "#035", "vehicleRegistration": "ALB 4520", "supplier": "Copper Ridge Mining", "product": "Copper Concentrate", "stage": "Inspection", "location": "Inspection Bay", "status": "Quality hold", "lastUpdated": "2026-09-23T09:42:00+02:00" },
+  { "queueNumber": "#036", "vehicleRegistration": "ALB 4521", "supplier": "ChemPro Logistics", "product": "Industrial Solvent", "stage": "Holding Area", "location": "Holding H1", "status": "Waiting", "lastUpdated": "2026-09-23T09:29:00+02:00" },
+  { "queueNumber": "#037", "vehicleRegistration": "ALB 4523", "supplier": "ABC Farmers Cooperative", "product": "Maize", "stage": "Receiving Queue", "location": "Queue Lane 2", "status": "Waiting", "lastUpdated": "2026-09-23T09:18:00+02:00" }
+]

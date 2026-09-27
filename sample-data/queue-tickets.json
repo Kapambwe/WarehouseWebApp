@@ -1,0 +1,7 @@
+[
+  { "queueNumber": "#034", "supplier": "North Valley Cooperative", "product": "Maize", "goodsType": "Agricultural", "expectedQuantity": 28, "unit": "t", "vehicleRegistration": "ALB 4519", "status": "At Dock", "priority": "Standard", "dock": "D2", "position": 1, "estimatedWaitMinutes": 0 },
+  { "queueNumber": "#035", "supplier": "Copper Ridge Mining", "product": "Copper Concentrate", "goodsType": "Mineral", "expectedQuantity": 18.5, "unit": "t", "vehicleRegistration": "ALB 4520", "status": "Inspection", "priority": "Priority", "dock": "D1", "position": 2, "estimatedWaitMinutes": 12 },
+  { "queueNumber": "#036", "supplier": "ChemPro Logistics", "product": "Industrial Solvent", "goodsType": "Hazardous", "expectedQuantity": 24, "unit": "drums", "vehicleRegistration": "ALB 4521", "status": "Waiting", "priority": "Standard", "dock": "—", "position": 3, "estimatedWaitMinutes": 27 },
+  { "queueNumber": "#037", "supplier": "ABC Farmers Cooperative", "product": "Maize", "goodsType": "Agricultural", "expectedQuantity": 30, "unit": "t", "vehicleRegistration": "ALB 4523", "status": "Waiting", "priority": "Standard", "dock": "—", "position": 4, "estimatedWaitMinutes": 42 },
+  { "queueNumber": "#038", "supplier": "Lusaka Metals", "product": "Nickel Ore", "goodsType": "Mineral", "expectedQuantity": 12, "unit": "t", "vehicleRegistration": "ALB 4524", "status": "Waiting", "priority": "Priority", "dock": "—", "position": 5, "estimatedWaitMinutes": 56 }
+]

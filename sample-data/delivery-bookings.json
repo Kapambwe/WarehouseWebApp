@@ -1,0 +1,6 @@
+[
+  { "bookingNumber": "INB-2026-00452", "supplier": "ABC Farmers Cooperative", "product": "Maize", "goodsType": "Agricultural", "expectedQuantity": 30, "unit": "t", "vehicleRegistration": "ALB 4523", "slot": "2026-09-23T10:00:00+02:00", "status": "Checked In", "requiredHandling": "Sampling required" },
+  { "bookingNumber": "INB-2026-00453", "supplier": "Copper Ridge Mining", "product": "Copper Concentrate", "goodsType": "Mineral", "expectedQuantity": 18.5, "unit": "t", "vehicleRegistration": "ALB 4520", "slot": "2026-09-23T10:30:00+02:00", "status": "Arriving", "requiredHandling": "Assay and covered dock" },
+  { "bookingNumber": "INB-2026-00454", "supplier": "ChemPro Logistics", "product": "Industrial Solvent", "goodsType": "Hazardous", "expectedQuantity": 24, "unit": "drums", "vehicleRegistration": "ALB 4521", "slot": "2026-09-23T11:00:00+02:00", "status": "Booked", "requiredHandling": "Hazardous dock and SDS" },
+  { "bookingNumber": "INB-2026-00455", "supplier": "Health Supply Co.", "product": "Insulin 10ml", "goodsType": "Pharmaceutical", "expectedQuantity": 9200, "unit": "vials", "vehicleRegistration": "ALB 4525", "slot": "2026-09-23T11:30:00+02:00", "status": "Booked", "requiredHandling": "Cold chain required" }
+]

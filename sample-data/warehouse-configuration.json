@@ -1,0 +1,7 @@
+[
+  { "area": "Locations", "name": "Default put-away strategy", "value": "Capacity + product compatibility", "status": "Active", "lastChangedBy": "Admin User", "lastChangedAt": "2026-09-20T10:00:00+02:00" },
+  { "area": "Queue", "name": "Priority override approval", "value": "Warehouse Manager", "status": "Active", "lastChangedBy": "Admin User", "lastChangedAt": "2026-09-19T13:30:00+02:00" },
+  { "area": "Quality", "name": "Mineral release policy", "value": "Certified assay required", "status": "Active", "lastChangedBy": "Quality Manager", "lastChangedAt": "2026-09-22T08:15:00+02:00" },
+  { "area": "Cold chain", "name": "Temperature threshold", "value": "2–8 °C", "status": "Active", "lastChangedBy": "Quality Manager", "lastChangedAt": "2026-09-18T11:00:00+02:00" },
+  { "area": "Security", "name": "Seal required for dispatch", "value": "Yes", "status": "Active", "lastChangedBy": "Security Manager", "lastChangedAt": "2026-09-17T09:45:00+02:00" }
+]

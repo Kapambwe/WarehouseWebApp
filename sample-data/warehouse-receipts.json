@@ -1,0 +1,5 @@
+[
+  { "receiptNumber": "WR-2026-000145", "product": "Maize", "goodsType": "Agricultural", "quantity": 100, "unit": "t", "gradeOrAssay": "Grade A", "owner": "ABC Farmers Cooperative", "warehouse": "Lusaka Central", "status": "Verified", "encumbrance": "None", "issuedAt": "2026-09-20T10:00:00+02:00" },
+  { "receiptNumber": "WR-2026-000146", "product": "Copper Concentrate", "goodsType": "Mineral", "quantity": 86.4, "unit": "t", "gradeOrAssay": "Assay pending", "owner": "Copper Ridge Mining", "warehouse": "Copperbelt Depot", "status": "Pending quality", "encumbrance": "None", "issuedAt": "2026-09-23T09:56:00+02:00" },
+  { "receiptNumber": "WR-2026-000144", "product": "Nickel Ore", "goodsType": "Mineral", "quantity": 144, "unit": "t", "gradeOrAssay": "1.8% Ni", "owner": "Lusaka Metals", "warehouse": "Copperbelt Depot", "status": "Verified", "encumbrance": "Bank collateral", "issuedAt": "2026-09-18T14:20:00+02:00" }
+]

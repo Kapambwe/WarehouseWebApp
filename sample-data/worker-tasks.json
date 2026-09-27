@@ -1,0 +1,6 @@
+[
+  { "taskNumber": "TASK-1001", "taskType": "Receiving", "worker": "Moses Phiri", "warehouse": "Lusaka Central", "status": "In progress", "completedUnits": 18, "targetUnits": 24, "safetyStatus": "Certified" },
+  { "taskNumber": "TASK-1002", "taskType": "Picking", "worker": "Ruth Banda", "warehouse": "Lusaka Central", "status": "In progress", "completedUnits": 42, "targetUnits": 60, "safetyStatus": "Certified" },
+  { "taskNumber": "TASK-1003", "taskType": "Quality inspection", "worker": "Peter Banda", "warehouse": "Copperbelt Depot", "status": "Assigned", "completedUnits": 2, "targetUnits": 5, "safetyStatus": "Certified" },
+  { "taskNumber": "TASK-1004", "taskType": "Cycle count", "worker": "Chanda Zulu", "warehouse": "Cold Room A", "status": "Completed", "completedUnits": 35, "targetUnits": 35, "safetyStatus": "Certified" }
+]

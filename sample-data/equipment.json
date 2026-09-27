@@ -1,0 +1,6 @@
+[
+  { "equipmentNumber": "FLT-001", "equipmentType": "Forklift", "warehouse": "Lusaka Central", "status": "Available", "inspectionDue": "2026-09-28T08:00:00+02:00", "usageHours": 1240.5, "maintenanceStatus": "Current" },
+  { "equipmentNumber": "SCL-001", "equipmentType": "Weighbridge Scale", "warehouse": "Copperbelt Depot", "status": "In use", "inspectionDue": "2026-09-24T08:00:00+02:00", "usageHours": 6420, "maintenanceStatus": "Calibration due" },
+  { "equipmentNumber": "SCN-014", "equipmentType": "Mobile Scanner", "warehouse": "Lusaka Central", "status": "Assigned", "inspectionDue": "2026-10-15T08:00:00+02:00", "usageHours": 380, "maintenanceStatus": "Current" },
+  { "equipmentNumber": "CON-002", "equipmentType": "Conveyor", "warehouse": "Copperbelt Depot", "status": "Maintenance", "inspectionDue": "2026-09-23T08:00:00+02:00", "usageHours": 8900, "maintenanceStatus": "Work order open" }
+]

@@ -1,0 +1,5 @@
+[
+  { "shipmentNumber": "SHP-2026-00401", "orderNumber": "SO-2026-00873", "customer": "Health Services Supply", "vehicle": "ALB 4701", "driver": "John Tembo", "status": "Loaded", "seal": "SEAL-88101", "plannedDispatch": "2026-09-23T10:15:00+02:00", "deliveryException": "" },
+  { "shipmentNumber": "SHP-2026-00402", "orderNumber": "SO-2026-00874", "customer": "General Industrial Stores", "vehicle": "ALB 4702", "driver": "Mary Phiri", "status": "Dispatched", "seal": "SEAL-88102", "plannedDispatch": "2026-09-23T09:00:00+02:00", "deliveryException": "" },
+  { "shipmentNumber": "SHP-2026-00403", "orderNumber": "SO-2026-00872", "customer": "Copper Refinery Ltd", "vehicle": "—", "driver": "—", "status": "Awaiting carrier", "seal": "—", "plannedDispatch": "2026-09-23T14:00:00+02:00", "deliveryException": "Carrier not assigned" }
+]

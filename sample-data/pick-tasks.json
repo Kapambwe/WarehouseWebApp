@@ -1,0 +1,6 @@
+[
+  { "taskNumber": "PICK-2026-0311", "orderNumber": "SO-2026-00871", "product": "Grade A Maize", "goodsType": "Agricultural", "location": "Z3-R12-B04", "quantity": 50, "unit": "t", "status": "In progress", "assignedTo": "Moses Phiri" },
+  { "taskNumber": "PICK-2026-0312", "orderNumber": "SO-2026-00871", "product": "Packaging Bags", "goodsType": "General goods", "location": "Z1-R02-B10", "quantity": 2000, "unit": "each", "status": "Assigned", "assignedTo": "Ruth Banda" },
+  { "taskNumber": "PICK-2026-0313", "orderNumber": "SO-2026-00872", "product": "Copper Concentrate", "goodsType": "Mineral", "location": "STOCKPILE-02", "quantity": 12, "unit": "t", "status": "Blocked", "assignedTo": "Unassigned" },
+  { "taskNumber": "PICK-2026-0314", "orderNumber": "SO-2026-00873", "product": "Insulin 10ml", "goodsType": "Pharmaceutical", "location": "COLD-A-004", "quantity": 1200, "unit": "vials", "status": "Completed", "assignedTo": "Chanda Zulu" }
+]

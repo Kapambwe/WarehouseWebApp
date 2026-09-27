@@ -1,0 +1,6 @@
+[
+  { "company": "Copperbelt Logistics", "contact": "operations@cblogistics.example", "activeVehicles": 18, "deliveriesThisMonth": 84, "onTimePercent": 93.5, "status": "Approved" },
+  { "company": "Zambezi Freight", "contact": "dispatch@zamb freight.example", "activeVehicles": 11, "deliveriesThisMonth": 52, "onTimePercent": 88.2, "status": "Approved" },
+  { "company": "National Cold Chain", "contact": "control@ncc.example", "activeVehicles": 7, "deliveriesThisMonth": 31, "onTimePercent": 97.1, "status": "Approved" },
+  { "company": "Rapid Haulage", "contact": "fleet@rapid.example", "activeVehicles": 5, "deliveriesThisMonth": 19, "onTimePercent": 74.8, "status": "Review required" }
+]

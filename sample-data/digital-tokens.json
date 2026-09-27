@@ -1,0 +1,17 @@
+[
+  {
+    "tokenNumber": "WRT-202609220001",
+    "receiptNumber": "WR-2026-000145",
+    "product": "Copper concentrate",
+    "goodsType": "Mineral",
+    "quantity": 100,
+    "unit": "t",
+    "owner": "ABC Farmers Cooperative",
+    "purpose": "Operational warehouse receipt reference",
+    "status": "Active",
+    "issuedBy": "demo.operator",
+    "issuedAt": "2026-09-22T08:30:00Z",
+    "auditReference": "AUD-TOKEN-0001",
+    "tokenUri": "urn:wms:warehouse-receipt:WR-2026-000145"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "sku": "MAIZE-A", "productName": "Grade A Maize", "goodsType": "Agricultural", "trackingMode": "Batch / lot", "primaryUnit": "tonnes", "storageRequirement": "Dry, ventilated", "qualityProfile": "Moisture and grade", "status": "Active" },
+  { "sku": "CU-CON-01", "productName": "Copper Concentrate", "goodsType": "Mineral", "trackingMode": "Stockpile / batch", "primaryUnit": "tonnes", "storageRequirement": "Covered bulk area", "qualityProfile": "Assay, moisture, impurities", "status": "Active" },
+  { "sku": "SOLV-200", "productName": "Industrial Solvent", "goodsType": "Hazardous", "trackingMode": "Lot / container", "primaryUnit": "drums", "storageRequirement": "Hazardous segregated zone", "qualityProfile": "SDS and compatibility", "status": "Active" },
+  { "sku": "MED-INS-01", "productName": "Insulin 10ml", "goodsType": "Pharmaceutical", "trackingMode": "Lot / expiry", "primaryUnit": "vials", "storageRequirement": "2–8°C cold chain", "qualityProfile": "Temperature and expiry", "status": "Active" },
+  { "sku": "GEN-VAL-01", "productName": "Serialized Generator", "goodsType": "General goods", "trackingMode": "Serial number", "primaryUnit": "each", "storageRequirement": "Secure covered area", "qualityProfile": "Condition and warranty", "status": "Active" }
+]

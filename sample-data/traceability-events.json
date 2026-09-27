@@ -1,0 +1,7 @@
+[
+  { "occurredAt": "2026-09-18T06:00:00+02:00", "eventType": "Extraction recorded", "actor": "Copper Ridge Mining", "location": "Mufulira Mine", "reference": "MINE-2026-014", "evidenceStatus": "Verified" },
+  { "occurredAt": "2026-09-19T11:30:00+02:00", "eventType": "Shipment dispatched", "actor": "Copper Ridge Logistics", "location": "Mufulira Mine Gate", "reference": "ALB 4520", "evidenceStatus": "Verified" },
+  { "occurredAt": "2026-09-23T09:42:00+02:00", "eventType": "Vehicle checked in", "actor": "Warehouse Gate", "location": "Copperbelt Depot", "reference": "#035", "evidenceStatus": "Verified" },
+  { "occurredAt": "2026-09-23T09:51:00+02:00", "eventType": "Gross and tare captured", "actor": "Weighbridge Operator", "location": "Scale 2", "reference": "WB-2026-0192", "evidenceStatus": "Verified" },
+  { "occurredAt": "2026-09-23T09:56:00+02:00", "eventType": "Quality inspection opened", "actor": "Peter Banda", "location": "Inspection Bay", "reference": "QI-2026-0042", "evidenceStatus": "Pending" }
+]

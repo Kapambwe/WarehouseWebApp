@@ -1,0 +1,5 @@
+[
+  { "transactionNumber": "WB-2026-0191", "queueNumber": "#034", "vehicleRegistration": "ALB 4519", "product": "Maize", "grossWeight": 33240, "tareWeight": 5240, "netWeight": 28000, "unit": "kg", "scale": "Scale 1", "status": "Completed", "capturedAt": "2026-09-23T09:46:00+02:00" },
+  { "transactionNumber": "WB-2026-0192", "queueNumber": "#035", "vehicleRegistration": "ALB 4520", "product": "Copper Concentrate", "grossWeight": 24780, "tareWeight": 6280, "netWeight": 18500, "unit": "kg", "scale": "Scale 2", "status": "Completed", "capturedAt": "2026-09-23T09:51:00+02:00" },
+  { "transactionNumber": "WB-2026-0193", "queueNumber": "#037", "vehicleRegistration": "ALB 4523", "product": "Maize", "grossWeight": 0, "tareWeight": 0, "netWeight": 0, "unit": "kg", "scale": "Scale 1", "status": "Awaiting gross weight", "capturedAt": "2026-09-23T09:58:00+02:00" }
+]

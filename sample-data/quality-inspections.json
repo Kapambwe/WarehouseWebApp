@@ -1,0 +1,5 @@
+[
+  { "inspectionNumber": "QI-2026-0041", "receiptNumber": "RCV-2026-00881", "product": "Maize", "goodsType": "Agricultural", "batchOrLot": "MAIZE-2026-001", "inspector": "Grace Mwansa", "result": "Passed", "requiredTest": "Moisture and grade", "inspectedAt": "2026-09-23T09:54:00+02:00" },
+  { "inspectionNumber": "QI-2026-0042", "receiptNumber": "RCV-2026-00882", "product": "Copper Concentrate", "goodsType": "Mineral", "batchOrLot": "CU-2026-014", "inspector": "Peter Banda", "result": "Pending", "requiredTest": "Assay and impurities", "inspectedAt": "2026-09-23T09:56:00+02:00" },
+  { "inspectionNumber": "QI-2026-0043", "receiptNumber": "RCV-2026-00883", "product": "Industrial Solvent", "goodsType": "Hazardous", "batchOrLot": "SOLV-2026-003", "inspector": "Ruth Phiri", "result": "Failed", "requiredTest": "SDS and container integrity", "inspectedAt": "2026-09-23T09:57:00+02:00" }
+]

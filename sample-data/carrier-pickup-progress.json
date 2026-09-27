@@ -1,0 +1,44 @@
+[
+  {
+    "shipmentNumber": "SHP-2026-00401",
+    "carrier": "Zambezi Logistics",
+    "driver": "John Tembo",
+    "vehicle": "ALB 4701",
+    "status": "En route to warehouse",
+    "progressPercent": 68,
+    "distanceRemainingKm": 14.2,
+    "etaAt": "2026-09-24T10:35:00+02:00",
+    "lastKnownLocation": "Great East Road · 14 km from Lusaka Central",
+    "lastUpdated": "2026-09-24T10:12:00+02:00",
+    "trackingSource": "LogisticMobileApp GPS",
+    "pickupWindow": "10:00–11:00"
+  },
+  {
+    "shipmentNumber": "SHP-2026-00402",
+    "carrier": "Copperbelt Freight",
+    "driver": "Mary Phiri",
+    "vehicle": "ALB 4702",
+    "status": "Arriving at gate",
+    "progressPercent": 92,
+    "distanceRemainingKm": 1.8,
+    "etaAt": "2026-09-24T10:18:00+02:00",
+    "lastKnownLocation": "Lusaka Central gate approach",
+    "lastUpdated": "2026-09-24T10:14:00+02:00",
+    "trackingSource": "LogisticMobileApp GPS",
+    "pickupWindow": "10:00–10:30"
+  },
+  {
+    "shipmentNumber": "SHP-2026-00403",
+    "carrier": "Pending carrier assignment",
+    "driver": "Not assigned",
+    "vehicle": "Not assigned",
+    "status": "Awaiting carrier",
+    "progressPercent": 0,
+    "distanceRemainingKm": 0,
+    "etaAt": "2026-09-24T14:00:00+02:00",
+    "lastKnownLocation": "Carrier has not started the trip",
+    "lastUpdated": "2026-09-24T08:00:00+02:00",
+    "trackingSource": "No live tracking",
+    "pickupWindow": "14:00–15:00"
+  }
+]
